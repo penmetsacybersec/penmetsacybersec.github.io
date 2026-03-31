@@ -1,41 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Venkat Penmetsa | Cyber Security Trainer</title>
+  <title>The Digital Rewire | Cyber Security Awareness</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
-      font-family: Arial;
       margin: 0;
-      background: #0f172a;
+      font-family: 'Poppins', sans-serif;
+      background: #020617;
       color: white;
+    }
+
+    .hero {
       text-align: center;
+      padding: 80px 20px;
+      background: radial-gradient(circle at top, #0f172a, #020617);
     }
 
-    section {
-      padding: 40px 20px;
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #38bdf8;
+      box-shadow: 0 0 40px rgba(56,189,248,0.6);
+      margin-bottom: 15px;
     }
 
-    h1 {
+    .hero h1 {
+      font-size: 34px;
       color: #38bdf8;
+      margin-bottom: 5px;
     }
 
-    .card {
-      background: #1e293b;
-      margin: 10px;
-      padding: 20px;
-      border-radius: 10px;
+    .hero h2 {
+      font-weight: normal;
+      font-size: 18px;
+      color: #cbd5f5;
+    }
+
+    .hero p {
+      color: #94a3b8;
+      margin-top: 10px;
     }
 
     .btn {
       background: #38bdf8;
-      padding: 10px 20px;
       color: black;
+      padding: 12px 25px;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 5px;
       display: inline-block;
-      margin-top: 10px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #0f172a;
+      padding: 25px;
+      border-radius: 15px;
+      width: 280px;
+      border: 1px solid rgba(255,255,255,0.05);
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 30px rgba(56,189,248,0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+      font-size: 14px;
     }
 
     a {
@@ -46,52 +103,63 @@
 
 <body>
 
-<section>
-  <h1>Hi, I'm Venkat Penmetsa</h1>
-  <p>Cyber Security & AI Awareness Trainer</p>
-  <p>Helping students stay safe in the digital world</p>
-</section>
-
-<section class="card">
-  <h1>About Me</h1>
-  <p>
-    I am passionate about Cyber Security and AI. I conduct awareness sessions
-    to help students understand online dangers and stay safe while using the internet.
-  </p>
-</section>
-
-<section class="card">
-  <h1>Workshop Program</h1>
-  <p>1-Hour Cyber Safety & AI Awareness Session</p>
-  <p>Includes Live Examples, Study Material & Certificate</p>
-</section>
-
-<section class="card">
-  <h1>Topics Covered</h1>
-  <p>Password Security</p>
-  <p>Phishing & Online Scams</p>
-  <p>Mobile Safety</p>
-  <p>Smart Internet Usage</p>
-  <p>Basics of AI</p>
-</section>
-
-<section>
-  <h1>Contact</h1>
-
-  <p>📱 WhatsApp: 8688985002</p>
-
-  <p>
-    📧 Email:
-    <a href="mailto:venkatpenmetsa@yahoo.com">
-      venkatpenmetsa@yahoo.com
-    </a>
-  </p>
+<div class="hero">
+  <img src="profile.jpg" alt="Founder">
+  <h1>The Digital Rewire</h1>
+  <h2>Cyber Security Awareness Program</h2>
+  <p>Rewiring digital habits for a safer online world</p>
 
   <a href="https://wa.me/918688985002?text=Hello%20I%20want%20to%20book%20a%20Cyber%20Security%20session" class="btn">
-    Book Workshop on WhatsApp
+    Book a Session
   </a>
+</div>
 
-</section>
+<div class="section">
+  <h2>About</h2>
+  <div class="cards">
+    <div class="card">
+      <p>
+        The Digital Rewire focuses on transforming unsafe online habits into secure digital practices. 
+        We educate students on real-world cyber threats and how to stay protected.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Workshop</h2>
+  <div class="cards">
+    <div class="card">
+      <p>1-Hour Cyber Security Awareness Session</p>
+      <p>Interactive & Beginner Friendly</p>
+      <p>Includes Certificate & Study Material</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Topics Covered</h2>
+  <div class="cards">
+    <div class="card">Password Security</div>
+    <div class="card">Phishing Attacks</div>
+    <div class="card">Mobile Security</div>
+    <div class="card">Safe Internet Usage</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Contact</h2>
+  <div class="cards">
+    <div class="card">
+      <p>📱 8688985002</p>
+      <p>📧 <a href="mailto:venkatpenmetsa@yahoo.com">Email Me</a></p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  © 2026 The Digital Rewire
+</footer>
 
 </body>
 </html>
