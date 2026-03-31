@@ -4,82 +4,94 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>The Digital Rewire | Venkat Penmetsa</title>
+<title>The Digital Rewire | Cyber Security Awareness</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-* {margin:0;padding:0;box-sizing:border-box;}
-
 body {
-  font-family:'Segoe UI',sans-serif;
-  background:#020617;
-  color:white;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #020617;
+  color: #e2e8f0;
 }
 
-/* HERO */
+/* Container */
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* Hero Section */
 .hero {
-  text-align:center;
-  padding:60px 20px;
+  text-align: center;
+  padding: 30px 0 15px;
 }
 
 .hero img {
-  width:150px;
-  border-radius:50%;
-  border:3px solid #38bdf8;
-  margin-bottom:15px;
-  box-shadow:0 0 20px rgba(56,189,248,0.5);
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  object-fit: cover;
 }
 
-h1 {color:#38bdf8;}
-p {color:#94a3b8;margin-top:5px;}
-
-.phone {
-  margin-top:10px;
-  color:#22c55e;
-  font-size:18px;
+.hero h1 {
+  font-size: 22px;
+  margin: 10px 0 5px;
+  color: #38bdf8;
 }
 
-.btn {
-  display:inline-block;
-  margin-top:15px;
-  padding:10px 20px;
-  background:#38bdf8;
-  color:black;
-  border-radius:6px;
-  text-decoration:none;
-  font-weight:bold;
+.hero p {
+  font-size: 14px;
+  color: #94a3b8;
 }
 
-/* SECTION */
+/* Section */
 .section {
-  padding:40px 20px;
-  text-align:center;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .section h2 {
-  color:#38bdf8;
-  margin-bottom:20px;
+  color: #38bdf8;
+  margin-bottom: 10px;
 }
 
-.grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:15px;
-  max-width:900px;
-  margin:auto;
+/* Cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card {
-  background:#0f172a;
-  padding:20px;
-  border-radius:10px;
-  border:1px solid #1e293b;
+  background: #0f172a;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 14px;
 }
 
-/* FOOTER */
+/* Button */
+.btn {
+  background: #38bdf8;
+  color: #000;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Footer */
 footer {
-  text-align:center;
-  padding:20px;
-  color:#94a3b8;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  color: #64748b;
 }
 </style>
 </head>
@@ -88,21 +100,88 @@ footer {
 
 <!-- HERO -->
 <div class="hero">
-  <img src="./1735311268532.jpg" alt="Venkat">
+  <div class="container">
+    <img src="profile.jpg" alt="Venkat Penmetsa">
 
-  <h1>The Digital Rewire</h1>
-  <p>Cyber Security Awareness for Students</p>
-  <p>Helping students stay safe in the digital world</p>
-
-  <div class="phone">📞 8688985002</div>
-
-  <a href="https://wa.me/918688985002" class="btn">Book Session</a>
+    <h1>The Digital Rewire</h1>
+    <p>Cyber Security Awareness Program</p>
+    <p>Trainer: Venkat Penmetsa</p>
+  </div>
 </div>
 
 <!-- ABOUT -->
 <div class="section">
-  <h2>About</h2>
-  <p style="max-width:600px;margin:auto;">
+  <div class="container">
+    <h2>About</h2>
+    <p>
+      The Digital Rewire helps students build safe digital habits and understand
+      real cyber threats. This program is designed to make students smart,
+      secure, and responsible online users.
+    </p>
+  </div>
+</div>
+
+<!-- WORKSHOP -->
+<div class="section">
+  <div class="container">
+    <h2>Workshop</h2>
+    <div class="cards">
+      <div class="card">1-Hour Cyber Security Awareness Session</div>
+      <div class="card">Beginner Friendly</div>
+      <div class="card">Certificate & Study Material Included</div>
+    </div>
+  </div>
+</div>
+
+<!-- TOPICS -->
+<div class="section">
+  <div class="container">
+    <h2>Topics Covered</h2>
+    <div class="cards">
+      <div class="card">Password Security</div>
+      <div class="card">Phishing & Online Scams</div>
+      <div class="card">Mobile Security</div>
+      <div class="card">Safe Internet Usage</div>
+    </div>
+  </div>
+</div>
+
+<!-- SMART LEARNING -->
+<div class="section">
+  <div class="container">
+    <h2>Smart Learning Guide</h2>
+    <p>Use AI tools correctly to improve knowledge and score better marks.</p>
+
+    <div class="cards">
+      <div class="card">Understand concepts clearly</div>
+      <div class="card">Improve answers & writing</div>
+      <div class="card">Learn faster & smarter</div>
+      <div class="card">Avoid misuse of technology</div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+  <div class="container">
+    <h2>Get Started</h2>
+    <p>Book a session for your students today</p>
+
+    <a href="https://wa.me/918688985002?text=Hello%20I%20want%20to%20book%20Cyber%20Security%20session"
+       class="btn">
+       Contact on WhatsApp
+    </a>
+
+    <p style="margin-top:10px;">📧 venkatpenmetsa@yahoo.com</p>
+  </div>
+</div>
+
+<footer>
+  © 2026 The Digital Rewire
+</footer>
+
+</body>
+</html>  <p style="max-width:600px;margin:auto;">
     The Digital Rewire is a student-focused cyber security awareness program designed to 
     teach safe internet habits and protect students from real-world online threats.
   </p>
